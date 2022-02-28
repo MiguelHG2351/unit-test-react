@@ -1,0 +1,22 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "description": "Fundamentos de testing con Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:randomstr": "jest ./__test__/index.test.js",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "Jest",
+    "Fundamentals"
+  ],
+  "author": "MiguelHG2351",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
